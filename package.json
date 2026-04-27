@@ -1,0 +1,12 @@
+{
+  "name": "tv-morning-scan",
+  "version": "1.0.0",
+  "description": "Daily morning watchlist scanner — krishiv + vaisham",
+  "type": "module",
+  "scripts": {
+    "scan": "node scripts/morning-scan.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.9"
+  }
+}
